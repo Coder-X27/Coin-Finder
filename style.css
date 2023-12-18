@@ -265,7 +265,7 @@
 /* TELEGRAM */
 .telegrambot{
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background: url('https://static.wixstatic.com/media/7f442f_88bddd25a3d946d48750130c7c84ea85~mv2.png/v1/fill/w_1920,h_1045,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/7f442f_88bddd25a3d946d48750130c7c84ea85~mv2.png') no-repeat center center/cover;
 }
 .telegrambotcontainer{

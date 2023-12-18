@@ -1,0 +1,164 @@
+@media only screen and (max-width: 700px) {
+  .joincommunity {
+    margin-left: 4rem;
+  }
+  .bg{
+    width: 50%;
+  }
+  .brand {
+    margin-top: 1rem;
+  }
+  .herobg {
+    height: 70vh;
+    background: url("https://static.wixstatic.com/media/7f442f_19a8bcfe50a442688e4b54a9419ae376~mv2.png/v1/fill/w_1920,h_1106,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/7f442f_19a8bcfe50a442688e4b54a9419ae376~mv2.png")
+      no-repeat center center/cover;
+  }
+  .herotitle {
+    width: 80%;
+    z-index: 1;
+    margin-top: 10rem;
+    line-height: 2rem;
+  }
+  .herodesc {
+    width: 80%;
+    margin: 0rem auto;
+    font-size: 0.8rem;
+  }
+  .coinfinder {
+    height: 100vh;
+  }
+  .coinfindertemplate {
+    width: 80%;
+    flex-direction: column;
+  }
+  .coinimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .coinimg > img {
+    width: 80%;
+  }
+
+  .coincontent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .coinhead{
+    font-size: 2rem;
+  }
+  .cointitle{
+    font-size: 1rem;
+  }
+  .coindesc{
+    font-size: 0.9rem;
+  }
+  .coinbtn{
+    width: 60%;
+    text-align: center;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+  }
+  .discovertitle{
+    font-size: 1.8rem;
+  }
+  .discovercontainer{
+    width: 95%;
+  }
+  .discoverheading{
+    font-size: 1.9rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .discoverdesc{
+    font-size: 1rem;
+  }
+  .discoverboxes{
+    width: 95%;
+  }
+  .discoverboximg{
+    width: 30%;
+  }
+  .discoverboximg>img{
+    width: 100%;
+  }
+  .discoverboxcontent{
+    width: 70%;
+  }
+  .dicoverboxtitle{
+    font-size: 1rem;
+  }
+  .discoverboxdesc{
+    font-size: .8rem;
+  }
+  .discoverpoints{
+    width: 95%;
+    margin: auto;
+  }
+  .discoverpoint{
+    width: 100%;
+    margin:1rem auto
+  }
+  .discoverpointimg{
+    width: 25%;
+  }
+  .discoverpointimg>img{
+    width: 100%;
+  }
+  .discoverpointcontent{
+    width: 75%;
+  }
+  .discoverpointtitle{
+    font-size: 1.1rem;
+  }
+  .discoverpointdesc{
+    font-size: 0.9rem;
+  }
+  .telegrambotcontainer{
+    width: 95%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .telegrambotimg{
+    width: 100%;
+  }
+  .telegrambotimg>img{
+    margin-top: 1rem;
+  }
+  .telegrambotcontent{
+    width: 80%;
+  }
+
+  .telegrambotheading{
+    margin-top: 0rem;
+    font-size: 1.3rem;
+  }
+  .telegrambottitle{
+    font-size: 2rem;
+    height: 33px;
+  }
+  .telegrambottitle2{
+    font-size: 1.6rem;
+  }
+  .telegrambotdesc{
+    font-size: 1rem;
+  }
+  .telegrambotpoints{
+    margin-top: 1rem;
+  }
+  .telegrambotpoint{
+    justify-content: flex-start;
+  }
+  .telegrambotpoint>img{
+    width: 15%;
+  }
+  .telegrambotpointheading{
+    margin-left: 1.4rem;
+    font-size: 1rem;
+    font-size: 600;
+  }
+}
