@@ -541,7 +541,7 @@ html{
 
 .tokenomics {
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   background: url("./assets/bg4.webp")
     no-repeat center center/cover;
     position: relative;
@@ -1008,11 +1008,14 @@ html{
     text-align: center;
     font-size: 1rem;
   }
+
+  
   .tokencontractaddress {
     text-align: center;
     color: #2b1608;
     font-size: 1rem;
-  }
+}
+
 
   .roadmap {
     width: 100vw;
