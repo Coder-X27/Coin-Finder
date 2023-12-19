@@ -695,13 +695,12 @@ html{
 }
 .roadmapphases {
   position: absolute;
-  top: 16%;
+  top: 10%;
   left: 24%;
   width: 70%;
 }
 .roadmapphasesheading {
   font-size: 1rem;
-  margin-bottom: 2rem;
 }
 .roadmapseperator {
   margin: 2rem 0;
