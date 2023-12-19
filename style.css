@@ -127,7 +127,7 @@ html{
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-  background: url("https://static.wixstatic.com/media/7f442f_19a8bcfe50a442688e4b54a9419ae376~mv2.png/v1/fill/w_1920,h_1106,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/7f442f_19a8bcfe50a442688e4b54a9419ae376~mv2.png")
+  background: url("./assets/bg1.webp")
     no-repeat center center/cover;
 }
 .bg {
@@ -187,38 +187,55 @@ html{
   font-size: 1.2rem;
   text-align: center;
 }
-.xbtn{
+.xbtn,.telegrambtn{
   background-color: transparent;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   padding: 1rem;
   border-radius: 50%;
   border: 2px solid #ff8b00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:  1rem;
+  margin-top: 2rem;
 }
 .xbtn>img{
   filter: invert(1);
 }
-.xbtn>img{
-  width: 100%;
+.telegrambtn>img{
+  
+  filter: invert(1);
+}
+.herobtnbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 .trybtn {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
+  margin-top: 2rem;
   background: linear-gradient(148deg, #f9eb28 0%, #f36428 100%);
   color: black;
   border-radius: 10px;
   box-shadow: 0 5px 15px 1px rgba(255, 139, 0, 0.37);
   outline: 2px solid orange;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
+  width: 30%;
+}
+.trybtnimg{
+  width: 20%;
 }
 /* COINFINDER */
 .coinfinder {
   width: 100%;
   height: 600px;
-  background: url("https://static.wixstatic.com/media/7f442f_d37dfa8667b4446ebef6728025705012~mv2.png/v1/fill/w_1920,h_669,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7f442f_d37dfa8667b4446ebef6728025705012~mv2.png")
+  background: url("./assets/coinfinderbg.webp")
     no-repeat center center/cover;
 }
 .coinfindertemplate {
@@ -341,7 +358,7 @@ html{
 .discover {
   width: 100vw;
   min-height: 300vh;
-  background: url("https://static.wixstatic.com/media/7f442f_1a11c99997764189adfe5c175cb1da72~mv2.png/v1/fill/w_1919,h_3311,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/7f442f_1a11c99997764189adfe5c175cb1da72~mv2.png")
+  background: url("./assets/bg2.webp")
     no-repeat center center;
     position: relative;
 }
@@ -440,7 +457,7 @@ html{
   position: relative;
   width: 100vw;
   min-height: 110vh;
-  background: url("https://static.wixstatic.com/media/7f442f_88bddd25a3d946d48750130c7c84ea85~mv2.png/v1/fill/w_1920,h_1045,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/7f442f_88bddd25a3d946d48750130c7c84ea85~mv2.png")
+  background: url("./assets/bg3.webp")
     no-repeat center center/cover;
 }
 .telegrambotcontainer {
@@ -525,7 +542,7 @@ html{
 .tokenomics {
   width: 100vw;
   height: 80vh;
-  background: url("https://static.wixstatic.com/media/7f442f_215120ab91bf445ea82b6ae0cc92d48c~mv2.png/v1/fill/w_1920,h_779,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7f442f_215120ab91bf445ea82b6ae0cc92d48c~mv2.png")
+  background: url("./assets/bg4.webp")
     no-repeat center center/cover;
     position: relative;
 }
@@ -607,8 +624,8 @@ html{
 
 .roadmap {
   width: 100vw;
-  min-height: 100vh;
-  background: url("https://static.wixstatic.com/media/7f442f_74e54940294e47d0b89d7e82ed477e08~mv2.png/v1/fill/w_1919,h_1546,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/7f442f_74e54940294e47d0b89d7e82ed477e08~mv2.png")
+  min-height: 110vh;
+  background: url("./assets/bg5.png")
     no-repeat center center/cover;
     position: relative;
 }
@@ -658,6 +675,7 @@ html{
   height: 100%;
   align-items: center;
   justify-content: space-evenly;
+  margin: 2rem 0;
 }
 .roadmapbox {
   width: 35%;
@@ -692,7 +710,7 @@ html{
 .footer {
   width: 100vw;
   height: 50px;
-  background: url("https://static.wixstatic.com/media/7f442f_4f71d2be86ab41cfa48b185106d519a0~mv2.png/v1/fill/w_1349,h_59,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7f442f_4f71d2be86ab41cfa48b185106d519a0~mv2.png")
+  background: url("./assets/footerbg.webp")
     no-repeat center center / cover;
   display: flex;
   justify-content: center;
@@ -771,8 +789,6 @@ html{
   }
   .herobg {
     height: 70vh;
-    background: url("https://static.wixstatic.com/media/7f442f_19a8bcfe50a442688e4b54a9419ae376~mv2.png/v1/fill/w_1920,h_1106,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/7f442f_19a8bcfe50a442688e4b54a9419ae376~mv2.png")
-      no-repeat center center/cover;
   }
   .herotitle {
     width: 80%;
@@ -1002,8 +1018,6 @@ html{
   .roadmap {
     width: 100vw;
     min-height: 100vh;
-    background: url("https://static.wixstatic.com/media/7f442f_74e54940294e47d0b89d7e82ed477e08~mv2.png/v1/fill/w_1919,h_1546,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/7f442f_74e54940294e47d0b89d7e82ed477e08~mv2.png")
-      no-repeat center center/cover;
   }
   .roadmapcontainer {
     width: 80%;
@@ -1069,5 +1083,37 @@ html{
   }
   .footer >img{
     width: 40%;
+  }
+  .herobtnbox{
+    width: 80%;
+  }
+  .trybtn {
+    padding: .5rem .5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 60%;
+  }
+  .trybtnimg{
+    width: 20%;
+  }
+  .xbtn,.telegrambtn{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 2px solid #ff8b00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:  1rem;
+    margin-top: 2rem;
+  }
+  .xbtn>img{
+    filter: invert(1);
+  }
+  .telegrambtn>img{
+    
+    filter: invert(1);
   }
 }
