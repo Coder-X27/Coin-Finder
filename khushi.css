@@ -1,85 +1,149 @@
-/* Adjustments to the tokenomics section */
 .tokenomics {
-    width: 100%;
-    min-height: 100vh;
-    background: url("https://static.wixstatic.com/media/7f442f_215120ab91bf445ea82b6ae0cc92d48c~mv2.png/v1/fill/w_1349,h_547,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7f442f_215120ab91bf445ea82b6ae0cc92d48c~mv2.png") no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Tokenomics container styles */
-  .tokenomicscontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    text-align: center;
-  }
-  
-  /* Tokenomics content styles */
-  .tokenomicscontent {
-    position: relative;
-    padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.9); /* Example background color */
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
-  }
-  
-  /* Tokenomics title styles */
-  .tokenomicstitle {
-    font-size: 4rem;
-    margin: 0;
-  }
-  
-  /* Tokenomics head styles */
-  .tokenomicshead {
-    font-size: 2rem;
-    color: rgb(91, 47, 8);
-    font-weight: 500;
-  }
-  
-  /* Tokenomics image styles */
-  .tokenomicsimg {
-    margin-top: 2rem;
-  }
-  
-  /* Tokenomics image 2 styles */
-  .tokenomicsimg2 {
-    margin-top: 2rem;
-  }
-  
-  /* Tokenomics images within the container */
-  .tokenomicscontainer img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .left-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 1; /* Ensure content is above the images */
-  }
-  
-  /* Positioning the first image */
-  .tokenomicsimg {
-    position: relative;
-    z-index: 0;
-  }
-  
-  /* Positioning the second image */
-  .tokenomicsimg2 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-    transform: translate(50%, 50%);
-  }
-  
+  width: 100%;
+  background: url("https://static.wixstatic.com/media/7f442f_215120ab91bf445ea82b6ae0cc92d48c~mv2.png/v1/fill/w_1349,h_547,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7f442f_215120ab91bf445ea82b6ae0cc92d48c~mv2.png")
+    no-repeat center center/cover;
+  display: grid;
+}
+
+.tokenomicscontainer {
+  display: grid;
+  background: url("https://static.wixstatic.com/media/7f442f_1201d19c08904af7bc082e2e421561aa~mv2.png/v1/fill/w_967,h_398,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7f442f_1201d19c08904af7bc082e2e421561aa~mv2.png")
+    no-repeat center;
+  align-items: center;
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+}
+
+.tokenomicscontent {
+  position: absolute;
+  align-self: center;
+  justify-self: start;
+  margin: 5%;
+}
+
+.tokenomicstitle {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.tokenomicshead {
+  font-size: 2rem;
+  color: rgb(91, 47, 8);
+  font-weight: 700;
+}
+
+h3 span {
+  color: rgb(91, 47, 8);
+  font-weight: 700;
+}
+
+.tokenomicstax {
+  margin: 4%;
+  align-self: center;
+  position: absolute;
+  justify-self: end;
+}
+
+.tokenomicsimg2 {
+  margin-top: 2rem;
+}
+
+.tokenomicsheading {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2b1608;
+}
+
+.tokenomicssubheading {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  font-size: 7rem;
+  font-weight: bolder;
+}
+
+.tokenomicsaddress {
+  text-align: center;
+}
+
+.tokenomicsaddress2 {
+  text-align: center;
+  color: #ff8b00;
+}
+
+.roadmap {
+  width: 100%;
+  min-height: 100vh;
+  background: url("https://static.wixstatic.com/media/7f442f_74e54940294e47d0b89d7e82ed477e08~mv2.png/v1/fill/w_1349,h_1087,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7f442f_74e54940294e47d0b89d7e82ed477e08~mv2.png")
+    no-repeat center center/cover;
+}
+
+.roadmapcontainer {
+  text-align: center;
+}
+
+.roadmaptitle {
+  font-size: 2.5rem;
+  color: #ff8b00;
+  padding-top: 3rem;
+}
+.roadmapheading {
+  font-size: 3.4rem;
+}
+
+.roadmapphases {
+  display: flex;
+  flex-wrap: wrap;
+}
+.phase1,
+.phase2,
+.phase3 {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  margin: 1rem auto;
+  background: url("https://static.wixstatic.com/media/7f442f_452aea8b52734b748e575a09357e75ad~mv2.png/v1/fill/w_396,h_363,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7f442f_452aea8b52734b748e575a09357e75ad~mv2.png")
+    no-repeat center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-align: left;
+}
+
+.phasecontent {
+  position: absolute;
+}
+
+.phaseno {
+  position: absolute;
+  transform: translate(-160%, -50%);
+  font-size: 2rem;
+  color: #2b1608;
+  font-weight: bolder;
+}
+
+.phaseheading {
+  position: relative;
+  font-weight: bold;
+}
+
+.phaselist {
+  left: 5%;
+  width: 60%;
+  position: relative;
+  list-style-type: disc;
+}
+
+.phaseline {
+  display: flex;
+
+  justify-content: center; /* Horizontally center the content */
+  align-items: center;
+}
 
 .footer {
   width: 100vw;
