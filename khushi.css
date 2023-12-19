@@ -76,23 +76,21 @@ h3 span {
 }
 
 .roadmap {
-  width: 100%;
-  min-height: 100vh;
-  background: url("https://static.wixstatic.com/media/7f442f_74e54940294e47d0b89d7e82ed477e08~mv2.png/v1/fill/w_1349,h_1087,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7f442f_74e54940294e47d0b89d7e82ed477e08~mv2.png")
-    no-repeat center center/cover;
+  background: url("https://static.wixstatic.com/media/7f442f_74e54940294e47d0b89d7e82ed477e08~mv2.png/v1/fill/w_1349,h_1087,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7f442f_74e54940294e47d0b89d7e82ed477e08~mv2.png") no-repeat center center/cover;
+  padding: 5% 0; /* Add some padding to the section */
 }
-
 .roadmapcontainer {
   text-align: center;
 }
 
 .roadmaptitle {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #ff8b00;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
+
 .roadmapheading {
-  font-size: 3.4rem;
+  font-size: 3.5rem;
 }
 
 .roadmapphases {
@@ -104,7 +102,7 @@ h3 span {
 .phase3 {
   position: relative;
   width: 50%;
-  height: 100vh;
+  height: 50vh;
   margin: 1rem auto;
   background: url("https://static.wixstatic.com/media/7f442f_452aea8b52734b748e575a09357e75ad~mv2.png/v1/fill/w_396,h_363,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7f442f_452aea8b52734b748e575a09357e75ad~mv2.png")
     no-repeat center;
@@ -139,10 +137,8 @@ h3 span {
 }
 
 .phaseline {
-  display: flex;
-
-  justify-content: center; /* Horizontally center the content */
-  align-items: center;
+  margin: 2rem auto; 
+  display: block; 
 }
 
 .footer {
@@ -156,4 +152,21 @@ h3 span {
 
 .footerimg {
   margin-top: 1%;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .roadmapphases {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .phase1, .phase2, .phase3{
+    width: 100%;
+  }
+
+  .phaseline{
+    visibility: hidden;
+  }
 }
