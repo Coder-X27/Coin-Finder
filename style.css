@@ -118,6 +118,9 @@ html{
   width: auto;
   height: 50%;
 }
+.joincommunity:hover{
+  cursor: pointer;
+}
 .herobg {
   position: relative;
   display: flex;
@@ -212,6 +215,7 @@ html{
   justify-content: center;
   align-items: center;
   width: 50%;
+  z-index: 1000;
 }
 .trybtn {
   display: flex;
@@ -227,9 +231,24 @@ html{
   font-size: 1.2rem;
   font-weight: 700;
   width: 30%;
+  transition: all 1s ease;
+}
+.trybtn:hover{
+  background: transparent;
+  color: white;
+  cursor:pointer
+}
+.trybtn:hover >img{
+  filter: invert(1);
 }
 .trybtnimg{
   width: 20%;
+}
+.xbtn,.telegrambtn{
+  transition: all 1s ease;
+}
+.xbtn:hover,.telegrambtn:hover{
+  background:linear-gradient(148deg, #f9eb28 0%, #f36428 100%);
 }
 /* COINFINDER */
 .coinfinder {

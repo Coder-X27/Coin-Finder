@@ -14,3 +14,8 @@ menu_item.forEach((item) => {
         mobile_menu.classList.toggle('active');
     });
 });
+const clicked=document.getElementById('trybtn')
+
+clicked. addEventListener('click',()=>{
+    alert("Coming Soon !");
+})
